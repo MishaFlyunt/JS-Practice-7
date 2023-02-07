@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block_logo {
+  display: flex;
+  width: 30%;
+  cursor: pointer;
+  padding-left: 30px;
+  margin-left: 80px;
+  font-size: 20px;
+}
+
+.block_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+.block_menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.block_foto {
+  display: flex;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  width: 25%;
+  cursor: pointer;
+}
+
+p {
+  padding: 30px;
+}
+
+.container_input {
+  width: 600px;
+  height: 340px;
+  border: 1px solid black;
+  border-radius: 9px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 410px;
+  bottom: 310px;
+  display: none;
+}
+
+.clik {
+  display: flex;
+  margin: 25px;
+  padding: 10px 25px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clik-2 {
+  display: flex;
+  padding: 10px 55px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.block_kolo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  height: 100px;
+  margin-top: 40px;
+  display: none;
+}
+
+.red {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.green {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: green;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.blue {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.black {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.gold {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gold;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.gray {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gray;
+  border: 2px solid black;
+  cursor: pointer;
+}
